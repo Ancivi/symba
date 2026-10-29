@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "SYMBA: higher-order functional networks from event time series"
+type: software
+version: 0.1.0
+repository-code: "https://github.com/Ancivi/symba"
+authors:
+  - family-names: Civilini
+    given-names: Andrea
+  - family-names: "de Vico Fallani"
+    given-names: Fabrizio
+  - family-names: Latora
+    given-names: Vito
+preferred-citation:
+  type: article
+  title: "Higher-Order Functional Networks from Event Time Series"
+  status: submitted
+  authors:
+    - family-names: Civilini
+      given-names: Andrea
+    - family-names: "de Vico Fallani"
+      given-names: Fabrizio
+    - family-names: Latora
+      given-names: Vito
+  # To add upon publication: journal, year, volume, start (article number), doi.
