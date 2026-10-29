@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+
+# local virtual environments
+.venv/
+symba_env/
+brain_preprocessing_env/
+
+# build artifacts
+*.egg-info/
+build/
+dist/
+
+# figures and files written when running the notebooks
+outputs/
+
+# pre-refactor snapshot, not meant to be published
+backup_original/
+
+# large/raw data not shipped in the repo (see data/README.md)
+data/**/*.pkl
+data/*.csv
+data/*.zip
+data/ecephys_cache_dir/
+data/ecephys_cache_dir_backup/
+
+# small derived results that are shipped
+!data/four_methods_summary_*.pkl
+!data/four_methods_thresholded_*.pkl
+!data/aggregated_results_deletion_alph20_g1_n20_r30_ord0_nsr10.pkl
+!data/aggregated_results_substitution_alph20_g1_n20_r30_ord0_nsr10.pkl
+!data/markovsequences/motifs_vs_ps_seqlen_100100_alph_20_thresh_0.5.pkl
+!data/markovsequences/motifs_vs_ps_seqlen_5100_alph_5_thresh_0.5.pkl

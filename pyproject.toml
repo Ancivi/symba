@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "symba"
+version = "0.1.0"
+description = "Supplementary code for the SYMBA paper: symbolic motif significance analysis."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "pandas",
+]
+
+[project.optional-dependencies]
+stock = ["yfinance"]  # stock-market case study
+
+[tool.setuptools.packages.find]
+where = ["src"]
