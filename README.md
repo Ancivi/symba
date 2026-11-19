@@ -193,9 +193,9 @@ The full reference (volume, article number, year) is on the paper's page at the 
 }
 ```
 
-To cite the software, use its Zenodo DOI, https://doi.org/10.5281/zenodo.24376948. This DOI
-always points to the latest version. The version used in the paper (v1.0) has its own DOI,
-https://doi.org/10.5281/zenodo.24376949.
+Please always cite the paper. If you also want to cite the code, add its Zenodo DOI to the
+paper citation: https://doi.org/10.5281/zenodo.24376948 for the latest version, or
+https://doi.org/10.5281/zenodo.24376949 for the version used in the paper (v1.0).
 
 The same information is in `CITATION.cff`, which GitHub shows under "Cite this repository".
 
