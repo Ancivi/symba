@@ -4,6 +4,7 @@ title: "SYMBA: higher-order functional networks from event time series"
 type: software
 version: 1.0.0
 date-released: 2026-11-19
+doi: "10.5281/zenodo.24376948"
 license: BSD-3-Clause
 repository-code: "https://github.com/Ancivi/symba"
 authors:

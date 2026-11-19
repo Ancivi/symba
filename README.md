@@ -1,5 +1,7 @@
 # SYMBA
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24376948.svg)](https://doi.org/10.5281/zenodo.24376948)
+
 Code for the paper *Higher-order functional networks from event time series*, by
 A. Civilini, F. de Vico Fallani and V. Latora (see [How to cite](#how-to-cite)).
 
@@ -190,6 +192,10 @@ The full reference (volume, article number, year) is on the paper's page at the 
   note    = {Accepted}
 }
 ```
+
+To cite the software, use its Zenodo DOI, https://doi.org/10.5281/zenodo.24376948. This DOI
+always points to the latest version. The version used in the paper (v1.0) has its own DOI,
+https://doi.org/10.5281/zenodo.24376949.
 
 The same information is in `CITATION.cff`, which GitHub shows under "Cite this repository".
 
