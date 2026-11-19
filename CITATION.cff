@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the paper below."
 title: "SYMBA: higher-order functional networks from event time series"
 type: software
-version: 0.1.0
+version: 1.0.0
+date-released: 2026-11-19
 license: BSD-3-Clause
 repository-code: "https://github.com/Ancivi/symba"
 authors:
