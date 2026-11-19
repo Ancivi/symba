@@ -1,6 +1,6 @@
 # SYMBA
 
-Code for the paper *Higher-Order Functional Networks from Event Time Series*, by
+Code for the paper *Higher-order functional networks from event time series*, by
 A. Civilini, F. de Vico Fallani and V. Latora (see [How to cite](#how-to-cite)).
 
 SYMBA (SYMbolic BAyesian) infers higher-order functional networks from multivariate event
@@ -176,14 +176,18 @@ reaches this rate, for instance when the sequence contains no motifs of that len
 
 If you use SYMBA in your work, please cite the paper:
 
-> A. Civilini, F. de Vico Fallani, and V. Latora, *Higher-Order Functional Networks from
-> Event Time Series* (submitted). The full reference will be added upon publication.
+> A. Civilini, F. de Vico Fallani, and V. Latora, *Higher-order functional networks from
+> event time series*, Phys. Rev. Lett. (accepted), https://doi.org/10.1103/89fs-hyw5
+
+The full reference (volume, article number, year) is on the paper's page at the DOI link.
 
 ```bibtex
 @article{civilini_symba,
-  author = {Civilini, Andrea and de Vico Fallani, Fabrizio and Latora, Vito},
-  title  = {Higher-Order Functional Networks from Event Time Series},
-  note   = {Submitted}
+  author  = {Civilini, Andrea and de Vico Fallani, Fabrizio and Latora, Vito},
+  title   = {Higher-order functional networks from event time series},
+  journal = {Phys. Rev. Lett.},
+  doi     = {10.1103/89fs-hyw5},
+  note    = {Accepted}
 }
 ```
 
@@ -191,4 +195,4 @@ The same information is in `CITATION.cff`, which GitHub shows under "Cite this r
 
 ## License
 
-The license will be added before the public release of the repository.
+The code is released under the BSD 3-Clause License. See the `LICENSE` file for the full text.

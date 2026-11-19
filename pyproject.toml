@@ -1,12 +1,14 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=77.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "symba"
 version = "0.1.0"
-description = "Supplementary code for the SYMBA paper: symbolic motif significance analysis."
+description = "SYMBA (SYMbolic BAyesian): inference of higher-order functional networks from multivariate event time series."
 requires-python = ">=3.11"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
 dependencies = [
     "numpy",
     "scipy",
